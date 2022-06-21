@@ -1,0 +1,244 @@
+/* --------- Basic --------- */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
+@import url("fontawesome-all.min.css");
+
+html {
+    background: url("/images/ivana-cajina-asuyh-_ZX54-unsplash.jpg") no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.85em;
+    font-weight: 300;
+    font-size: 13pt;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+article {
+    display: block;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+h1, p {
+    color: rgb(198, 228, 238);
+}
+
+.white-font {
+    color: white;
+}
+
+.text-background {
+    background-color: #282828;
+    border-radius: 20px;
+    opacity: 90%;
+}
+
+/* --------- Nav --------- */
+#nav {
+    height: 3.5em;
+    z-index: 10000;
+}
+
+.nav-container {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #282828;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 10000;
+    border-bottom: solid lightblue 2px;
+}
+
+.nav-items {
+    color: white;
+    margin: 0px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: larger;
+    line-height: 3;
+    z-index: 10000;
+
+}
+
+.nav-items:hover { 
+    background-color: black;
+    border: 0;
+    border-radius: 25%;
+    z-index: 10000;
+}
+
+.article-container {
+    margin: 30px 0;
+    /* transform: translateX(2.5%); */
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 375px;
+    border: solid lightblue 2px;
+    border-radius: 50px;
+    background-color: #282828;
+    text-align: center;
+    height: 450px;
+    display: inline-block;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.text-article-title {
+    font-size: 50px;
+}
+
+/* --------- Home --------- */
+
+.home-card {
+    height: 100%;
+}
+
+.profile-photo {
+    width: 300px;
+    border-radius: 50%;
+    /* border-bottom: solid lightblue 2px; */
+}
+
+.home-card > h2 {
+    margin-bottom: 2px;
+}
+
+.bold-name {
+    font-size: 50px;
+    color: white;
+    font-family: 'Font Awesome 5 Free';
+}
+
+/* --------- Skills --------- */
+
+.skill-card {
+    height: 100%;
+}
+
+.skill-container {
+    /*border: solid red 3px;*/
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 60px 20px;
+
+    box-sizing: border-box;
+    background: url("/images/cristiano-firmani-tmTidmpILWw-unsplash.jpg") no-repeat;
+    background-size: cover;
+}
+
+.skill-image {
+    padding: 20px 0;
+    max-width: 200px;
+    border: solid lightgray 2px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.skill-image:hover {
+    padding: 20px 0;
+    max-width: 200px;
+    border: solid lightgray 2px;
+    border-radius: 30px;
+    background-color: white;
+    filter: brightness(110%);
+}
+
+/* --------- Portfolio --------- */
+
+.portfolio-card {
+    height: 100%;
+    background-color: #282828;
+    border-radius: 30px;
+    margin: 20px 0;
+    padding-bottom: 30px;
+}
+
+.portfolio-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 60px 20px;
+
+    box-sizing: border-box;
+    background: url("/images/altumcode-dMUt0X3f59Q-unsplash.jpg");
+    background-size: cover;
+}
+
+.portfolio-image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 30px;
+    /* border: solid red 2px; */
+}
+
+.github-link-btn {
+    background-color: #1f1f1f;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.github-link-btn:hover {
+    background-color: #494949;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+/* --------- Contact --------- */
+
+/* .contact-card {
+
+} */
+
+.contact-container {
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+    min-width: 375px;
+    height: 300px;
+    background-color: #282828;
+    border-top: solid lightblue 2px;
+}
+
+.contact-btn {
+    width: 50px;
+    padding: 10px;
+}
+
+.contact-btn:hover {
+    width: 50px;
+    padding: 10px;
+    filter: brightness(110%);
+}
+
+/* --------- Media --------- */
+
+/* @media only screen and (max-width: 570px) {
+    body {
+      background-color: lightblue;
+    }
+  } */
