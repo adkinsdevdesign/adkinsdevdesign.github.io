@@ -187,6 +187,7 @@ h1, p {
     box-sizing: border-box;
     background: url("/images/altumcode-dMUt0X3f59Q-unsplash.jpg");
     background-size: cover;
+    background-position: right;
 }
 
 .portfolio-image {
