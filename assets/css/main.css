@@ -1,6 +1,5 @@
 /* --------- Basic --------- */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
-@import url("fontawesome-all.min.css");
 
 html {
     background: url("/images/ivana-cajina-asuyh-_ZX54-unsplash.jpg") no-repeat fixed; 
@@ -128,7 +127,7 @@ h1, p {
 .bold-name {
     font-size: 50px;
     color: white;
-    font-family: 'Font Awesome 5 Free';
+    font-family: 'Roboto', sans-serif; 
 }
 
 /* --------- Skills --------- */
