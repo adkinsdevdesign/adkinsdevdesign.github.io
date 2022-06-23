@@ -89,7 +89,7 @@ h1, p {
 }
 
 .article-container {
-    margin: 30px 0;
+    margin: 40px 0 40px 0;
     /* transform: translateX(2.5%); */
     box-sizing: border-box;
     width: 100%;
@@ -102,6 +102,14 @@ h1, p {
     display: inline-block;
     padding-bottom: 40px;
     padding-top: 40px;
+}
+
+.article-container.home-card {
+    margin: 80px 0 40px 0;
+}
+
+.article-container.portfolio-card {
+    margin: 40px 0 80px 0;
 }
 
 .text-article-title {
